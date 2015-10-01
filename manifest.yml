@@ -1,7 +1,7 @@
 ---
 applications:
-- name: spring-boot-thymeleaf-cf
+- name: spring-boot-cloud-foundry
   memory: 512M
   instances: 2
-  host: spring-boot-thymeleaf-cf-${random-word}
-  path: build/libs/spring-boot-thymeleaf-cf-0.1.0.jar
+  host: spring-boot-cloud-foundry-${random-word}
+  path: build/libs/spring-boot-cloud-foundry-0.1.0.jar
